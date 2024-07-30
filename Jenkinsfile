@@ -20,7 +20,7 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "main",
-                url: "https://github.com/RiverByte9/Java_app_3.0/edit/main/Jenkinsfile"
+                url: "https://github.com/RiverByte9/Java_app_3.0.git"
             )
             }
         }
